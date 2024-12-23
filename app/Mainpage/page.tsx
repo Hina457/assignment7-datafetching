@@ -11,7 +11,7 @@ import Link from "next/link";
 export default function Main(){
   return(
     <div>
-      <div className="w-full h-[900px] bg-black">
+      <div className="w-full h-[600px] bg-black">
         <h1 className="text-orange-500 text-center font-extrabold font-serif text-4xl pt-[250px]"><span className="text-yellow-500">Hi</span>na Alvi</h1>
         <h1  className="text-orange-500 text-center font-bold text-2xl">Assignment 7</h1>
         <p  className="text-orange-500 text-center text-3xl font-serif ">Server side Rendering & Client Side Rendering</p>

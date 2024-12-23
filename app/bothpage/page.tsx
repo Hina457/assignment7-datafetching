@@ -25,16 +25,16 @@ export default function Bothpage(){
 
             </div>
             <div className="flex justify-center gap-5">
-            <button className=" mt-[30px] text-white font-bold hover:bg-orange-500 font-serif w-auto rounded-[5px] h-[50px] bg-yellow-500">
+            <button className=" mt-[30px] text-white font-bold hover:bg-orange-500 font-serif w-[250px] rounded-[5px] h-[50px] bg-yellow-500">
        <Link href="/Server">Server-Side Data Fetching</Link> 
        </button>
        {/* second button */}
-       <button className=" mt-[30px] text-white font-bold hover:bg-orange-500 font-serif w-auto rounded-[5px] h-[50px] bg-yellow-500">
+       <button className=" mt-[30px] text-white font-bold hover:bg-orange-500 font-serif w-[250px] rounded-[5px] h-[50px] bg-yellow-500">
        <Link href="/Client">Client-Side Data Fetching</Link> 
        </button>
        </div>
        {/* back */}
-       <button className=" mt-[30px] ml-[47%] text-white font-bold hover:bg-orange-500 font-serif w-[70px] rounded-[5px] h-[50px] bg-yellow-500">
+       <button className=" mt-[30px] ml-[47%] text-white font-bold hover:bg-orange-500 font-serif w-[100px] rounded-[5px] h-[50px] bg-yellow-500">
        <Link href="/Mainpage">Back</Link> 
        </button>
        
