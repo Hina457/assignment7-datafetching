@@ -7,10 +7,10 @@ export default function Bothpage(){
     return(
         <div>
            
-          <div className="w-full h-auto bg-black">
+          <div className="w-full h-[750px] bg-black">
             <h1 className="text-center text-orange-500 text-3xl font-serif pt-6">Data Fetching...</h1>
             {/* main div */}
-            <div className="w-[1000px] h-[450px]  gap-[10px] flex  ml-[100px] ">
+            <div className="w-[1000px] h-[450px]  gap-[10px] flex  ml-[250px] ">
   
             <div className="w-[500px] h-[400px] bg-orange-500 mt-[50px] rounded-[15px] hover:scale-95 shadow-[0px_4px_10px_rgba(255,255,0,0.6)]">
 

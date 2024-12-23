@@ -9,9 +9,8 @@ export default function Home(){
 return(
   <div>
     <Main/>
-    <Bothpage/>
-    <ServerFetching/>
-    <Clientfetching/>
+   
+  
 
     
   </div>

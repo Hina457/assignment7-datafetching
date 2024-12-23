@@ -19,7 +19,7 @@ export default async function ServerFetching()
     
     return(
         <>
-        <div className="bg-black">
+        <div className="bg-black w-full h-[750px]">
             <h1 className="text-center text-white pt-7 font-serif text-2xl">Welcome to the Simple Books App</h1>
             <div className="grid gap-5 grid-cols-3 grid-rows-2 "> 
             
@@ -30,7 +30,7 @@ export default async function ServerFetching()
                 return(
                    
                 // All div 
-                    <div key={index} className="my-5 h-[200px] bg-orange-500 hover:scale-95 shadow-[0px_4px_10px_rgba(255,255,0,0.6)] text-white rounded-lg flex flex-col">
+                    <div key={index} className="my-5 mt-[50px] h-[200px] bg-orange-500 hover:scale-95 shadow-[0px_4px_10px_rgba(255,255,0,0.6)] text-white rounded-lg flex flex-col">
       
                         <p className="text-black font-serif font-bold ml-[30%] mt-[10%]">{datas.name}</p>
                         <p className="text-white ml-[30%]">Type:{datas.type}</p>
